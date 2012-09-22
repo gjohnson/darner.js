@@ -7,7 +7,7 @@ describe('get()', function(){
 
   describe('empty', function(){
     it('should reply with nothing', function(done){
-      dc.get('awesome', function(res){
+      dc.get('awesome', function(err, res){
         res.should.equal('END');
         done();
       });
@@ -18,7 +18,7 @@ describe('get()', function(){
     it('should wait 50 ms', function(){
       var result = '';
 
-      dc.get('awesome', { t: 50 }, function(res){
+      dc.get('awesome', { t: 50 }, function(err, res){
         result = res;
       });
 
