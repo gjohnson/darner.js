@@ -3,7 +3,7 @@ var darner = require('../')
   , should = require('should');
 
 describe('get()', function(){
-  var dc = darner.client(22133, 'localhost');
+  var dc = darner.connect(22133, 'localhost');
 
   describe('empty', function(){
     it('should reply with nothing', function(done){
