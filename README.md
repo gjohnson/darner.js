@@ -2,13 +2,13 @@
 
 A node.js client for [darner](https://github.com/wavii/darner).
 
-### Install
+## Install
 
 ```shell
 npm install darner
 ```
 
-### Usage
+## Usage
 
 ```javascript
 var darner = require('darner');
@@ -28,22 +28,22 @@ dc.stats(function(err, stats){
 dc.quit();
 ```
 
-### TODO
+## TODO
 
  - type casting
  - clean up parser
  - gracefull quiting
  - lots more...
 
-### Notes
+## Notes
 
 To run the tests, be sure to install [darner](https://github.com/wavii/darner).
 
-### Attribution
+## Attribution
 
   - [node-memcached](https://github.com/3rd-Eden/node-memcached) - some RegExp parsing goodies.
 
-### License
+## License
 
 (The MIT License)
 
