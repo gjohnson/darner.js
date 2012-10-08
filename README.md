@@ -30,9 +30,11 @@ dc.quit();
 
 ## TODO
 
+ - multiple connections
  - type casting
  - clean up parser
  - gracefull quiting
+ - benchmark something
  - lots more...
 
 ## Notes
