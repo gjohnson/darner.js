@@ -1,0 +1,8 @@
+{
+  "laxcomma": true,
+  "proto": true,
+  "indent": 2,
+  "unused": true,
+  "trailing": true,
+  "expr": true
+}

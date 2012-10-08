@@ -10,6 +10,7 @@ describe('connection', function(){
 
       dc.on('connect', function(){
         dc.should.have.property('connected', true);
+        dc.quit();
         done();
       });
     });
@@ -32,6 +33,7 @@ describe('connection', function(){
       var dc = darner.connect(22133, 'localhost');
       dc.on('connect', function(){
         dc.should.have.property('connected', true);
+        dc.quit();
         done();
       });
     });
