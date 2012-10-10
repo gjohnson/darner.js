@@ -2,6 +2,10 @@
 
 A node.js client for [darner](https://github.com/wavii/darner).
 
+## Production?
+
+No, I wouldn't do that quite yet...
+
 ## Install
 
 ```shell
